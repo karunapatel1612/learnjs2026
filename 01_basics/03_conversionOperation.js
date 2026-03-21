@@ -18,6 +18,24 @@ let int_val = 12;
 let str_val = String(int_val);
 
 // console.log(typeof str_val);
+// ***********************************Operation*******************************
+let value = 3;
+let negValue = -value;
+//console.log(negValue);
+let str1 = "Karuna"
+let str2 = " Patel"
+let str3 = str1+ str2
+// console.log(str3);
+// console.log('2'+1); // 21
+// console.log(2+'1') // 21
+// console.log("1"+2+2); // 122
+// console.log(1+2+"2"); // 32
+// console.log(true);
+// console.log(+true);
+console.log(+"");
+
+
+
 
 
 
