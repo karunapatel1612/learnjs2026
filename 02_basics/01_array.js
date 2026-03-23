@@ -21,16 +21,45 @@ const newArr = myArr.join();
 // console.log(typeof newArr); // string
 
 // slice , splice
-console.log("A ", myArr);
+// console.log("A ", myArr);
 
 const myn1 = myArr.slice(1, 3);// it will return the value 1 to 3-1 index of value but not return the 3 of indexth value
-console.log(myn1)
-console.log("B ", myArr)
+// console.log(myn1)
+// console.log("B ", myArr)
 
 
 const myn2 = myArr.splice(1, 3);  // it will return the indexth 1to 3 value 
 // console.log("C", myArr)
 // console.log(myn2)
+
+let language = ['java', 'php', 'pyhthon'];
+let db = ['mysql', 'mongodb', 'nosql']
+let fontend = ['css', 'html', 'js']
+
+// language.push(db);
+// console.log(language);
+
+// let data = language.concat(db); // only with two array
+// console.log(data);
+
+// let all_data = [...language, ...db, ...fontend] // more then 2 array
+// console.log(all_data);
+
+let another_Array = [1, 2, 3,[4, 5, 6], 7, [6, 7,[4, 5]]]
+let real_another_array = another_Array.flat(Infinity);
+// console.log(real_another_array)
+
+// console.log(Array.isArray("Karuna")) // false
+// console.log(Array.from("Karuna")) // [ 'K', 'a', 'r', 'u', 'n', 'a' ]
+// console.log(Array.from(name: "Karuna")) // return error
+
+let score1 = 100
+let score2 =200
+let score3 = 300
+console.log(Array.of(score1, score2, score3)) // [ 100, 200, 300 ]
+
+
+
 
 
 
