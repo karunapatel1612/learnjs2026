@@ -4,6 +4,9 @@ const id = Symbol("123");
 const anotherId = Symbol("123");
 // console.log(id===anotherId); // false;
 const bigNumber = 3768375837873838n
+
+
+
 // 2. Reference Tupe(Non Primitive)
 //2.1 Array, Objects,Functions
 
