@@ -55,8 +55,18 @@ const user = [
 // console.log(Object.keys(tinderUser)) // data type will be array
 // console.log(Object.values(tinderUser)) 
 // console.log(Object.entries(tinderUser)) 
-console.log(tinderUser.hasOwnProperty('isLoggedIN')) // chaeck that value is exist or not
+// console.log(tinderUser.hasOwnProperty('isLoggedIN')) // chaeck that value is exist or not
 
+const course = {
+    coursename : "Js in Hindi",
+    price:"999",
+    courseInstrctor:"Karuna"
+}
 
+const {courseInstrctor:instructor} = course;
+// console.log(instructor);
+const navbar = ()=>{
+
+}
 
 
